@@ -1,0 +1,35 @@
+type: Drill
+size: 7
+
+tier: 28
+drillTime: 3.5
+liquidBoostIntensity: 6.4
+liquidCapacity: 480
+drawRim: true
+ambientSound: drill
+ambientSoundVolume: 1.55
+
+consumes: {
+  power: 4.1
+  liquid: {
+    liquid: mag-slag
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+
+requirements: [
+  copper/250
+  lead/250
+  titanium/230
+  thorium/160
+  silicon/150
+  surge-alloy/120
+  bluewolframite/80
+]
+
+researchCostMultiplier: 0.1
+
+category: production
+research: andromeda-drill

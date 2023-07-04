@@ -1,0 +1,16 @@
+type: Wall
+size: 1
+
+health: 19000
+chanceDeflect: 550
+lightningChance: 0.15
+lightningDamage: 450
+
+requirements: [
+  bluewolframite/8
+]
+
+researchCostMultiplier: 0.5
+
+category: defense
+research: distribution-wall

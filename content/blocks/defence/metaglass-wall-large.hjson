@@ -1,0 +1,9 @@
+type: Wall
+size: 2
+health: 1520
+absorbLasers: true
+category: defense
+research: metaglass-wall
+requirements: [
+  metaglass/24
+]

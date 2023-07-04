@@ -1,0 +1,69 @@
+type: GenericCrafter
+size: 8
+
+/*
+drawer: {
+  type: drawArcSmelter
+  flameColor: 353535
+  midColor: a7a7a7
+  flameRad: 7
+  circleSpace: 4
+  circleStroke: 2
+  alpha: 1
+  particleRad: 28
+  particles: 60
+  particleLen: 10
+  particleStroke: 2.5
+  particleLife: 60
+}
+*/
+
+itemCapacity: 50
+hasPower: true
+hasLiquids: false
+hasItems: true
+
+craftTime: 90
+
+consumes: {
+  power: 3.2
+  items: {
+    items: [
+      bluewolframite/2
+      draconium/3
+      amethyst-gem/2
+      baenite/1
+    ]
+  }
+}
+
+outputItem: shadow/2
+
+requirements: [
+  lead/900
+  titanium/800
+  silicon/400
+  thorium/500
+  surge-alloy/250
+  baenite/200
+  amethyst-gem/150
+  bluewolframite/130
+  draconium/100
+]
+
+researchCostMultiplier: 0.02
+
+category: crafting
+
+research: {
+  parent: wolframite-converter
+  objectives: [
+    amethyst-refiner
+    extractor
+    furnace
+    refinery
+    tri-weaver
+    tungsten-refiner
+    wolframite-converter
+  ]
+}

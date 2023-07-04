@@ -1,0 +1,22 @@
+type: ThermalGenerator
+size: 4
+
+powerProduction: 44.6
+generateEffect: redgeneratespark
+floating: true
+ambientSound: hum
+ambientSoundVolume: 0.4
+
+requirements: [
+  copper/450
+  lead/450
+  thorium/330
+  silicon/180
+  surge-alloy/70
+  amethyst-gem/40
+]
+
+researchCostMultiplier: 0.05
+
+category: power
+research: burner-array

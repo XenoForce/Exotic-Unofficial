@@ -1,0 +1,39 @@
+type: Reconstructor
+size: 4
+
+constructTime: 2400
+liquidCapacity: 60
+
+consumes: {
+  power: 3
+  items: {
+    items: [
+      lead/60
+      silicon/110
+      thorium/50
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+
+upgrades: [
+  [ outbreak , virus    ]
+  [ victory  , reckless ]
+  [ flicker  , spark    ]
+  [ soul     , spirit   ]
+]
+
+requirements: [
+  lead/200
+  titanium/200
+  silicon/130
+  plastanium/50
+]
+
+researchCostMultiplier: 0.2
+
+category: units
+research: assembler

@@ -1,0 +1,35 @@
+type: PowerTurret
+size: 3
+health: 1600
+range: 160
+rotateSpeed: 3.8
+reload: 160
+
+shoot: {
+  type: ShootSpread
+  shots: 3
+  spread: 3
+}
+
+xRand: 5
+// powerUse: 10
+recoil: 3
+shootSound: laser
+shootType: {
+  type: LaserBulletType
+  length: 140
+  width: 24
+  damage: 80
+}
+
+requirements: [
+  lead/450
+  graphite/350
+  silicon/300
+  plastanium/150
+]
+
+researchCostMultiplier: 0.25
+
+category: turret
+research: cluster

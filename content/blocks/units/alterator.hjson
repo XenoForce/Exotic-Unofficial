@@ -1,0 +1,42 @@
+type: Reconstructor
+size: 8
+
+constructTime: 7300
+liquidCapacity: 60
+
+consumes: {
+  power: 4.2
+  items: {
+    items: [
+      thorium/550
+      silicon/450
+      plastanium/200
+      baenite/150
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.1
+  }
+}
+
+upgrades: [
+  [ fiend     , ghost     ]
+  [ phage     , pathogen  ]
+  [ excalibur , endeavour ]
+  [ pyre      , ember     ]
+]
+
+requirements: [
+  lead/900
+  thorium/800
+  silicon/500
+  plastanium/400
+  surge-alloy/300
+  amethyst-gem/250
+]
+
+researchCostMultiplier: 0.05
+
+category: units
+research: recaster

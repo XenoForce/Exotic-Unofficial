@@ -1,0 +1,18 @@
+type: PointDefenseTurret
+health: 250
+reload: 12
+bulletDamage: 2
+range: 110
+consumes: {
+  power: 1.5
+}
+requirements: [
+  copper/70
+  lead/50
+  silicon/30
+]
+
+researchCostMultiplier: 0.5
+
+category: turret
+research: twin

@@ -1,0 +1,34 @@
+type: GenericCrafter
+size: 3
+
+hasPower: true
+liquidCapacity: 40
+
+craftTime: 180
+
+consumes: {
+  power: 1.75
+  items: {
+    items: [
+      amethyst-gem/2
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.4
+  }
+}
+
+outputLiquid: supercoolant/240
+
+requirements: [
+  lead/120
+  silicon/75
+  titanium/45
+  amethyst-gem/35
+]
+
+researchCostMultiplier: 0.2
+
+category: crafting
+research: amethyst-refiner

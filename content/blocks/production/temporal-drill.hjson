@@ -1,0 +1,36 @@
+type: Drill
+size: 5
+
+health: 1600
+drillTime: 120
+tier: 6
+drawRim: true
+heatColor: 8dff9a
+hardnessDrillMultiplier: 25
+rotateSpeed: 5
+floating: true
+
+consumes: {
+  power: 2.2
+  liquid: {
+    liquid: liquid-baenara
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+}
+
+liquidBoostIntensity: 1.25
+
+category: production
+research: mass-extractor
+
+requirements: [
+  copper/120
+  thorium/80
+  graphite/50
+  silicon/40
+  baenite/20
+]
+
+researchCostMultiplier: 0.2

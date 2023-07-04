@@ -1,0 +1,37 @@
+type: GenericCrafter
+size: 3
+
+hasLiquids: true
+liquidCapacity: 30
+itemCapacity: 50
+craftEffect: heal
+updateEffect: hitLaser
+
+craftTime: 30
+
+consumes: {
+  power: 1.0
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+  items: {
+    items: [
+      plastanium/1
+      titanium/1
+    ]
+  }
+}
+
+outputItem: baenite/1
+
+category: crafting
+research: amethyst-refiner
+
+requirements: [
+  lead/120
+  titanium/90
+  thorium/90
+]
+
+researchCostMultiplier: 0.3

@@ -1,0 +1,35 @@
+type: GenericCrafter
+size: 3
+
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftEffect: hitFuse
+updateEffect: hitLancer
+ambientSound: build
+ambientSoundVolume: 0.5
+
+craftTime: 50
+
+consumes: {
+  power: 2.6
+  items: {
+    items: [
+      titanium/3
+    ]
+  }
+}
+
+outputItem: tungstung/2
+
+requirements: [
+  lead/60
+  thorium/50
+  titanium/30
+  amethyst-gem/20
+]
+
+researchCostMultiplier: 0.5
+
+category: crafting
+research: wolframite-converter

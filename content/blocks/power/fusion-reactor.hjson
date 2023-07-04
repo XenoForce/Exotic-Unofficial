@@ -1,0 +1,31 @@
+type: ImpactReactor
+size: 5
+
+hasLiquids: true
+liquidCapacity: 1650
+powerProduction: 650
+ambientSound: pulse
+ambientSoundVolume: 0.2
+
+consumes: {
+  power: 2.8
+  liquid: {
+    liquid: water
+    amount: 1.2
+  }
+}
+
+requirements: [
+  lead/450
+  titanium/300
+  silicon/200
+  plastanium/140
+  surge-alloy/70
+  bluewolframite/50
+  draconium/20
+]
+
+researchCostMultiplier: 0.1
+
+category: power
+research: draconium-reactor

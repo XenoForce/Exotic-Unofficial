@@ -1,0 +1,11 @@
+type: Floor
+blendGroup: basalt
+attributes: {
+  heat: 0.05
+  water: -0.3
+}
+liquidDrop: energia
+liquidMultiplier: 0.07
+emitLight: true
+lightRadius: 25
+lightColor: 3bbeff25

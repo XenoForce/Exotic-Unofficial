@@ -1,0 +1,15 @@
+type: StorageBlock
+size: 3
+health: 17000
+itemCapacity: 1250
+category: effect
+
+requirements: [
+  titanium/750
+  thorium/400
+  bluewolframite/200
+]
+
+researchCostMultiplier: 0.01
+
+research: rail

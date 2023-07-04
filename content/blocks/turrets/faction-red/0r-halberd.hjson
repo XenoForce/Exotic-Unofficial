@@ -1,0 +1,39 @@
+type: ItemTurret
+size: 4
+
+health: 4400
+range: 40
+reload: 15
+recoil: -32
+outlineIcon: false
+rotateSpeed: 12
+shootSound: none
+shake: 2
+hasLiquids: false
+
+ammoTypes: {
+  blast-compound: {
+    type: RailBulletType
+    damage: 650
+    length: 32
+    ammoMultiplier: 6
+    pierceDamageFactor: 0
+    pierceEffect: none
+    shootEffect: none
+    smokeEffect: none
+  }
+}
+
+category: turret
+research: 0r-waraxe
+
+requirements: [
+  copper/250
+  lead/200
+  thorium/150
+  metaglass/70
+  surge-alloy/30
+  anden/20
+]
+
+researchCostMultiplier: 0.2

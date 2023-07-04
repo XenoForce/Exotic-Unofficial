@@ -1,0 +1,7 @@
+type: Wall
+health: 1450
+category: defense
+research: anden-wall
+requirements: [
+  amethyst-gem/6
+]

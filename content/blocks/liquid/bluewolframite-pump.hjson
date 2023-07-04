@@ -1,0 +1,27 @@
+type: Pump
+size: 5
+
+health: 3600
+hasPower: true
+
+consumes: {
+  power: 2.5
+}
+
+pumpAmount: 12.4
+squareSprite: false
+liquidCapacity: 25000
+
+requirements: [
+  copper/350
+  lead/350
+  thorium/320
+  metaglass/250
+  silicon/150
+  bluewolframite/50
+]
+
+researchCostMultiplier: 0.1
+
+category: liquid
+research: bluewolframite-conduit

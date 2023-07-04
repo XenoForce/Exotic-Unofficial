@@ -1,0 +1,9 @@
+temperature: 0.015
+flammability: 0
+viscosity: 0.55
+heatCapacity: 3
+explosiveness: 0
+effect: freezing
+color: fbbdff
+
+research: anden

@@ -1,0 +1,22 @@
+type: CoreBlock
+size: 8
+
+health: 85000
+itemCapacity: 145000
+unitType: shockwave
+unitCapModifier: 125
+thrusterLength: 20
+
+requirements: [
+  copper/9500
+  lead/8500
+  thorium/5500
+  silicon/3500
+  draconium/250
+  shadow/110
+]
+
+researchCostMultiplier: 0.02
+
+category: effect
+research: core-radian

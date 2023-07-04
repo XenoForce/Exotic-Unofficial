@@ -1,0 +1,88 @@
+type: ItemTurret
+size: 4
+
+health: 19500
+targetAir: true
+targetGround: true
+inaccuracy: 12
+reload: 1
+shootSound: bigshot
+
+shoot: {
+  type: ShootSpread
+  shots: 9
+  spread: 0
+}
+
+recoil: 10
+ammoUseEffect: casing3
+shootCone: 25
+rotateSpeed: 1000
+range: 346
+
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: true
+  }
+}
+
+ammoTypes: {
+  draconium: {
+    speed: 8
+    damage: 600
+    width: 16
+    height: 21
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    status: burning
+    homingRange: 99999
+    homingPower: 99999
+    ammoMultiplier: 20
+    frontColor: 91c3ff
+    backColor: 91c3ff
+  }
+  bluewolframite: {
+    speed: 6
+    damage: 400
+    width: 16
+    height: 21
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    status: burning
+    ammoMultiplier: 20
+    frontColor: 91c3ff
+    backColor: 91c3ff
+  }
+  amethyst-gem: {
+    speed: 4
+    damage: 200
+    width: 16
+    height: 21
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    status: freezing
+    ammoMultiplier: 10
+    frontColor: 91c3ff
+    backColor: 91c3ff
+    lifetime: 200
+  }
+}
+
+requirements: [
+  copper/350
+  thorium/300
+  graphite/250
+  titanium/200
+  plastanium/150
+  surge-alloy/100
+  amethyst-gem/70
+  draconium/60
+  bluewolframite/50
+]
+
+researchCostMultiplier: 0.15
+
+category: turret
+research: railgun

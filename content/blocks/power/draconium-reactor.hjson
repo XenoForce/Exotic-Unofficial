@@ -1,0 +1,36 @@
+type: NuclearReactor
+size: 6
+
+health: 2500
+itemCapacity: 135
+liquidCapacity: 64
+itemDuration: 770
+powerProduction: 540
+
+consumes: {
+  liquid: {
+    liquid: supercoolant
+    amount: 0.32
+  }
+  items: {
+    items: [
+      draconium/1
+    ]
+  }
+}
+
+requirements: [
+  lead/250
+  titanium/130
+  thorium/120
+  silicon/60
+  plastanium/50
+  phase-fabric/50
+  amethyst-gem/40
+  bluewolframite/30
+]
+
+researchCostMultiplier: 0.07
+
+category: power
+research: geothermal-differentiator

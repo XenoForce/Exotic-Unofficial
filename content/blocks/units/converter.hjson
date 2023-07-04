@@ -1,0 +1,43 @@
+type: Reconstructor
+size: 12
+
+constructTime: 9000
+liquidCapacity: 2400
+
+consumes: {
+  power: 3.2
+  items: {
+    items: [
+      titanium/400
+      thorium/300
+      baenite/150
+      tungstung/120
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.1
+  }
+}
+
+upgrades: [
+  [ wraith  , banshee   ]
+  [ harmony , vengeance ]
+  [ disease , maliase   ]
+  [ cinder  , blaze     ]
+]
+
+requirements: [
+  titanium/500
+  thorium/400
+  phase-fabric/70
+  surge-alloy/60
+  baenite/40
+  amethyst-gem/25
+  tungstung/20
+]
+
+researchCostMultiplier: 0.15
+
+category: units
+research: rebuilder

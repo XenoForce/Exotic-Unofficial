@@ -1,0 +1,37 @@
+type: ForceProjector
+size: 6
+
+health: 9500
+shieldHealth: 34000
+radius: 260
+phaseRadiusBoost: 56
+phaseShieldBoost: 25000
+cooldownNormal: 15.5
+cooldownLiquid: 24.6
+cooldownBrokenBase: 7.6
+ambientSoundVolume: 0.5
+
+consumes: {
+  power: 145
+  items: {
+    items: [
+      bluewolframite/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+
+category: effect
+research: root-node-for-exotic-mod
+
+requirements: [
+  copper/350
+  lead/400
+  plastanium/300
+  surge-alloy/150
+  territe-alloy/100
+  amethyst-gem/100
+]
+
+researchCostMultiplier: 0.05

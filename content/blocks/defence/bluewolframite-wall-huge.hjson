@@ -1,0 +1,16 @@
+type: Wall
+size: 3
+
+health: 171000
+chanceDeflect: 550
+lightningChance: 0.15
+lightningDamage: 450
+
+requirements: [
+  bluewolframite/72
+]
+
+researchCostMultiplier: 0.3
+
+category: defense
+research: bluewolframite-wall-large

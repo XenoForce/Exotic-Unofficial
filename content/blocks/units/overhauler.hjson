@@ -1,0 +1,46 @@
+type: Reconstructor
+size: 14
+
+constructTime: 9000
+liquidCapacity: 2500
+
+consumes: {
+  power: 5
+  items: {
+    items: [
+      titanium/200
+      thorium/200
+      plastanium/150
+      baenite/70
+      tungstung/50
+      draconium/20
+    ]
+  }
+  liquid: {
+    liquid: supercoolant
+    amount: 0.1
+  }
+}
+
+upgrades: [
+  [ banshee   , spriggan ]
+  [ maliase   , plague   ]
+  [ vengeance , fearless ]
+  [ blaze     , wildfire ]
+]
+
+requirements: [
+  copper/400
+  lead/400
+  thorium/350
+  phase-fabric/130
+  surge-alloy/120
+  amethyst-gem/50
+  bluewolframite/40
+  draconium/30
+]
+
+researchCostMultiplier: 0.15
+
+category: units
+research: converter

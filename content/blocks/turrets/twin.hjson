@@ -1,0 +1,71 @@
+type: ItemTurret
+size: 2
+health: 650
+range: 140
+targetGround: true
+targetAir: true
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 5.5
+  barrels: 2
+  barrelOffset: 1
+}
+
+ammoTypes: {
+  scrap: {
+    damage: 5
+    speed: 3
+    lifetime: 45
+    reloadMultiplier: 0.65
+    ammoMultiplier: 3
+    splashDamage: 5
+    splashDamageRadius: 12
+    height: 8
+    width: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitEffect: flakExplosion
+  }
+  lead: {
+    damage: 15
+    speed: 2.5
+    lifetime: 50
+    reloadMultiplier: 0.45
+    height: 8
+    width: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+  }
+  silicon: {
+    damage: 7
+    speed: 3.2
+    lifetime: 45
+    reloadMultiplier: 1.5
+    ammoMultiplier: 4
+    height: 8
+    width: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    homingPower: 0.1
+  }
+  thorium: {
+    damage: 17
+    speed: 3
+    lifetime: 60
+    ammoMultiplier: 3
+    height: 10
+    width: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+  }
+}
+requirements: [
+  copper/105
+]
+
+researchCostMultiplier: 0.3
+
+category: turret
+research: root-node-for-exotic-mod

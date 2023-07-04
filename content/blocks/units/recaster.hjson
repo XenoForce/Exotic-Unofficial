@@ -1,0 +1,41 @@
+type: Reconstructor
+size: 6
+
+constructTime: 8200
+liquidCapacity: 120
+
+consumes: {
+  power: 7
+  items: {
+    items: [
+      titanium/600
+      thorium/500
+      silicon/400
+      surge-alloy/200
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.1
+  }
+}
+
+upgrades: [
+  [ virus    , phage     ]
+  [ reckless , excalibur ]
+  [ spark    , pyre      ]
+  [ spirit   , fiend     ]
+]
+
+requirements: [
+  lead/1500
+  thorium/1200
+  silicon/900
+  surge-alloy/300
+  phase-fabric/300
+]
+
+researchCostMultiplier: 0.05
+
+category: units
+research: recreator

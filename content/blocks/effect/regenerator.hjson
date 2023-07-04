@@ -1,0 +1,36 @@
+type: MendProjector
+size: 3
+
+health: 2250
+range: 240
+phaseBoost: 1.1
+phaseRangeBoost: 80
+reload: 1
+itemCapacity: 30
+healPercent: 0.6
+
+consumes: {
+  power: 2.1
+  items: {
+    items: [
+      baenite/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+
+requirements: [
+  lead/250
+  titanium/250
+  silicon/160
+  draconium/50
+  baenite/40
+  amethyst-gem/30
+  bluewolframite/20
+]
+
+researchCostMultiplier: 0.2
+
+category: effect
+research: rejuvenator

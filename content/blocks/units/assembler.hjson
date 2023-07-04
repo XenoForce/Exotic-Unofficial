@@ -1,0 +1,47 @@
+type: UnitFactory
+size: 2
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: soul
+    time: 1080
+    requirements: [
+      silicon/25
+      metaglass/30
+    ]
+  }
+  {
+    unit: victory
+    time: 1250
+    requirements: [
+      silicon/20
+      lead/35
+      titanium/25
+    ]
+  }
+  {
+    unit: outbreak
+    time: 1100
+    requirements: [
+      silicon/25
+      graphite/20
+    ]
+  }
+  {
+    unit: flicker
+    time: 2400
+    requirements: [
+      silicon/30
+      lead/15
+      graphite/10
+    ]
+  }
+]
+requirements: [
+  lead/75
+  silicon/40
+]
+research: root-node-for-exotic-mod
+category: units

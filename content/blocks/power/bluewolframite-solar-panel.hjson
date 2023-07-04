@@ -1,0 +1,16 @@
+type: SolarGenerator
+size: 8
+
+powerProduction: 15.8
+
+requirements: [
+  lead/200
+  territe-alloy/120
+  surge-alloy/90
+  bluewolframite/40
+]
+
+researchCostMultiplier: 0.05
+
+category: power
+research: burner-array

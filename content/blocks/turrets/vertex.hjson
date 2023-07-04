@@ -1,0 +1,34 @@
+type: PowerTurret
+size: 8
+
+health: 51000
+range: 80
+reload: 140
+recoil: -50
+hasLiquids: false
+// powerUse: 1288
+shootSound: none
+
+shootType: {
+  type: ShrapnelBulletType
+  damage: 250000
+  length: 50
+  width: 0.01
+  serrations: 0
+  toColor: ffffff
+  status: exotic-mod-bleeding
+}
+
+category: turret
+research: 0r-halberd
+
+requirements: [
+  copper/250
+  lead/230
+  thorium/200
+  surge-alloy/150
+  draconium/45
+  shadow/35
+]
+
+researchCostMultiplier: 0.2

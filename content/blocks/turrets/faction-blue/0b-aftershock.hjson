@@ -1,0 +1,62 @@
+type: PowerTurret
+size: 4
+
+targetAir: false
+rotateSpeed: 0
+// powerUse: 10
+shootCone: 360
+health: 2600
+range: 210
+shootEffect: none
+smokeEffect: none
+
+shoot: {
+  type: ShootSpread
+  shots: 15
+  spread: 8
+}
+
+reload: 360
+recoil: 0
+shake: 8
+// shootLength: 0
+shootSound: none
+
+shootType: {
+  damage: 0
+  splashDamage: 30
+  splashDamageRadius: 210
+  collides: false
+  collidesTiles: false
+  collidesAir: false
+  hittable: false
+  absorbable: false
+  lifetime: 2.5
+  height: 0.01
+  width: 0.01
+  lightRadius: 0
+  lightning: 1
+  lightningDamage: 24
+  lightningLength: 18
+  lightningLengthRand: 8
+  lightningColor: 7382f0
+  shootEffect: none
+  smokeEffect: none
+  hitEffect: none
+  despawnEffect: none
+  hitShake: 6
+}
+
+category: turret
+research: 0b-division
+
+requirements: [
+  copper/250
+  lead/200
+  titanium/150
+  thorium/150
+  surge-alloy/70
+  territe-alloy/50
+]
+
+researchCostMultiplier: 0.2

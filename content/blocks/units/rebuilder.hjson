@@ -1,0 +1,41 @@
+type: Reconstructor
+size: 10
+
+constructTime: 9000
+liquidCapacity: 1200
+
+consumes: {
+  power: 2.6
+  items: {
+    items: [
+      lead/300
+      titanium/300
+      amethyst-gem/50
+      tungstung/50
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.1
+  }
+}
+
+upgrades: [
+  [ ghost     , wraith  ]
+  [ endeavour , harmony ]
+  [ pathogen  , disease ]
+  [ ember     , cinder  ]
+]
+
+requirements: [
+  titanium/500
+  thorium/400
+  amethyst-gem/80
+  tungstung/70
+  bluewolframite/60
+]
+
+researchCostMultiplier: 0.15
+
+category: units
+research: alterator

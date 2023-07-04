@@ -1,0 +1,33 @@
+type: Fracker
+size: 4
+
+liquidCapacity: 40
+canOverdrive: false
+result: liquid-baenara
+itemUseTime: 120
+rotateSpeed: 7
+
+consumes: {
+  power: 2.3
+  items: {
+    items: [
+      sand/1
+    ]
+  }
+}
+
+pumpAmount: 0.26
+
+category: production
+research: mass-extractor
+
+requirements: [
+  copper/220
+  thorium/120
+  graphite/80
+  silicon/60
+  amethyst-gem/40
+  baenite/20
+]
+
+researchCostMultiplier: 0.2

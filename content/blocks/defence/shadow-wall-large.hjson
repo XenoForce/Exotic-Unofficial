@@ -1,0 +1,14 @@
+type: Wall
+size: 2
+
+health: 100000
+
+requirements: [
+  shadow/48
+  bluewolframite/24
+]
+
+researchCostMultiplier: 0.5
+
+category: defense
+research: shadow-wall

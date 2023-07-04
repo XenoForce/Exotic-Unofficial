@@ -1,0 +1,21 @@
+type: PowerGenerator
+size: 4
+
+powerProduction: 10.5
+
+// itemDuration: 20
+// minItemEfficiency: 0.4
+// minLiquidEfficiency: 0.6
+
+category: power
+research: root-node-for-exotic-mod
+
+requirements: [
+  copper/250
+  lead/200
+  thorium/150
+  territe-alloy/90
+  amethyst-gem/50
+]
+
+researchCostMultiplier: 0.12

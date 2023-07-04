@@ -1,0 +1,18 @@
+type: Wall
+size: 3
+
+health: 144000
+insulated: true
+absorbLasers: true
+chanceDeflect: 870
+schematicPriority: 10
+
+requirements: [
+  draconium/81
+  phase-fabric/27
+]
+
+researchCostMultiplier: 0.3
+
+category: defense
+research: draconium-wall-large

@@ -1,0 +1,9 @@
+type: Wall
+health: 490
+baseExplosiveness: 15
+flashHit: true
+category: defense
+research: root-node-for-exotic-mod
+requirements: [
+  anden/12
+]

@@ -1,0 +1,57 @@
+type: GenericCrafter
+size: 2
+
+craftTime: 60
+
+consumes: {
+  power: 0.8
+  items: {
+    items: [
+      scrap/3
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+
+outputItem: anden/1
+
+updateEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 5
+  lifetime: 35
+  colorFrom: e65555
+  colorTo: e6555550
+  sizeFrom: 0.75
+}
+
+craftEffect: {
+  type: ParticleEffect
+  length: 12
+  lifetime: 45
+  particles: 12
+  colorFrom: e65555
+  colorTo: e6555550
+  sizeFrom: 1.5
+  sizeTo: 0
+}
+
+requirements: [
+  copper/70
+  lead/60
+]
+
+category: crafting
+
+research: {
+  parent: root-node-for-exotic-mod
+  requirements: [
+    copper/140
+    lead/120
+    scrap/50
+  ]
+  objectives: [ scrap ]
+}

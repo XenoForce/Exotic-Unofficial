@@ -1,0 +1,34 @@
+type: OverdriveProjector
+size: 2
+
+health: 720
+range: 164
+baseColor: 87a3ff
+phaseColor: c0cfff
+speedBoost: 3.1
+speedBoostPhase: 2.4
+useTime: 360
+phaseRangeBoost: 22
+
+consumes: {
+  power: 2.6
+  items: {
+    items: [
+      baenite/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+
+requirements: [
+  lead/135
+  titanium/75
+  silicon/55
+  bluewolframite/45
+]
+
+researchCostMultiplier: 0.2
+
+category: effect
+research: regenerator

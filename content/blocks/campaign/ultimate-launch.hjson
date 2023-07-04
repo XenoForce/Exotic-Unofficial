@@ -1,0 +1,27 @@
+type: LaunchPad
+name: "Ultimate Launch Pad"
+
+size: 4
+
+itemCapacity: 450
+launchTime: 1800
+hasPower: true
+
+consumes: {
+  power: 34
+}
+
+category: effect
+
+requirements: [
+  silicon/150
+  titanium/150
+]
+
+research: {
+  parent: core-shard
+  requirements: [
+    silicon/450
+    titanium/450
+  ]
+}

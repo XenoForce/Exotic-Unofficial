@@ -1,0 +1,32 @@
+type: MassDriver
+name: "Ultimate Mass Driver"
+
+size: 4
+
+health: 5000
+itemCapacity: 500
+reloadTime: 120
+range: 600
+
+consumes: {
+  power: 2.5
+}
+
+category: distribution
+
+requirements: [
+  lead/300
+  titanium/300
+  thorium/200
+  silicon/250
+  shadow/50
+]
+
+research: {
+  parent: mass-driver
+  requirements: [
+    titanium/500
+    thorium/500
+    silicon/450
+  ]
+}

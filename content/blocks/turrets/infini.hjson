@@ -21,7 +21,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 1080
-      region: exotic-mod-infini-main
+      region: emupcx-infini-main
       sizeFrom: 64
       sizeTo: 64
       layer: 105
@@ -31,7 +31,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 180
-      region: exotic-mod-infini-c-0
+      region: emupcx-infini-c-0
       sizeFrom: 64
       sizeTo: 64
     }
@@ -40,7 +40,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 300
-      region: exotic-mod-infini-c-1
+      region: emupcx-infini-c-1
       sizeFrom: 64
       sizeTo: 64
     }
@@ -49,7 +49,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 420
-      region: exotic-mod-infini-c-2
+      region: emupcx-infini-c-2
       sizeFrom: 64
       sizeTo: 64
     }
@@ -58,7 +58,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 560
-      region: exotic-mod-infini-0-icon
+      region: emupcx-infini-0-icon
       sizeFrom: 64
       sizeTo: 64
       colorFrom: 2c2d38
@@ -69,7 +69,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 570
-      region: exotic-mod-infini-1-icon
+      region: emupcx-infini-1-icon
       sizeFrom: 64
       sizeTo: 64
       colorFrom: 2c2d38
@@ -80,7 +80,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 580
-      region: exotic-mod-infini-2-icon
+      region: emupcx-infini-2-icon
       sizeFrom: 64
       sizeTo: 64
       colorFrom: 2c2d38
@@ -91,7 +91,7 @@ shootEffect: {
       particles: 1
       length: 0
       lifetime: 590
-      region: exotic-mod-infini-3-icon
+      region: emupcx-infini-3-icon
       sizeFrom: 64
       sizeTo: 64
       colorFrom: 2c2d38
@@ -412,7 +412,7 @@ ammoTypes: {
                 hittable: false
                 reflectable: false
                 speed: 8
-                sprite: exotic-mod-torpedo
+                sprite: emupcx-torpedo
                 width: 25
                 height: 25
                 frontColor: ffffff
@@ -438,7 +438,7 @@ ammoTypes: {
                   lifetime: 90
                   interp: pow10Out
                   sizeFrom: 24
-                  region: exotic-mod-torpedo-effect
+                  region: emupcx-torpedo-effect
                 }
               }
             }

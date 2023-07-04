@@ -26,7 +26,7 @@ weapons: [
     mirror: false
     shootCone: 360
     reload: 320
-    shootStatus: exotic-mod-hyperdrive
+    shootStatus: emupcx-hyperdrive
     shootStatusDuration: 35
     shake: 6
     
@@ -54,7 +54,7 @@ weapons: [
           {
             type: ParticleEffect
             lifetime: 30
-            region: exotic-mod-square
+            region: emupcx-square
             length: 0
             spin: 8
             sizeFrom: 50
@@ -67,7 +67,7 @@ weapons: [
             lifetime: 30
             particles: 1
             cone: 0
-            region: exotic-mod-endeavour-charge
+            region: emupcx-endeavour-charge
             colorFrom: ffffff00
             sizeFrom: 35
             sizeTo: 35
@@ -107,7 +107,7 @@ weapons: [
           {
             type: ParticleEffect
             lifetime: 30
-            region: exotic-mod-square
+            region: emupcx-square
             length: 0
             spin: -8
             sizeFrom: 20
@@ -137,7 +137,7 @@ abilities: [
       sizeTo: 35
       length: 0.01
       lifetime: 20
-      region: exotic-mod-endeavour-charge
+      region: emupcx-endeavour-charge
       colorFrom: 90a2fc
       colorTo: 90a2fc00
       lightOpacity: 0

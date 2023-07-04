@@ -104,7 +104,7 @@ ammoTypes: {
     drag: 0.002
     ammoMultiplier: 4
     statusDuration: 600
-    status: exotic-mod-vapourizing
+    status: emupcx-vapourizing
   }
 }
 

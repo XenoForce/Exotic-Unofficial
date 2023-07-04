@@ -27,7 +27,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-0
+      region: emupcx-aurora-0
     }
     {
       type: ParticleEffect
@@ -38,7 +38,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-0
+      region: emupcx-aurora-0
     }
     {
       type: ParticleEffect
@@ -49,7 +49,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-0
+      region: emupcx-aurora-0
     }
     {
       type: ParticleEffect
@@ -60,7 +60,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-0
+      region: emupcx-aurora-0
     }
     {
       type: ParticleEffect
@@ -71,7 +71,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-1
+      region: emupcx-aurora-1
     }
     {
       type: ParticleEffect
@@ -82,7 +82,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-1
+      region: emupcx-aurora-1
     }
     {
       type: ParticleEffect
@@ -93,7 +93,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-1
+      region: emupcx-aurora-1
     }
     {
       type: ParticleEffect
@@ -104,7 +104,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-2
+      region: emupcx-aurora-2
     }
     {
       type: ParticleEffect
@@ -115,7 +115,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-2
+      region: emupcx-aurora-2
     }
     {
       type: ParticleEffect
@@ -126,7 +126,7 @@ chargeEffect: {
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: exotic-mod-aurora-3
+      region: emupcx-aurora-3
     }
   ]
 }
@@ -153,7 +153,7 @@ ammoTypes: {
       sizeFrom: 60
       colorFrom: 6f7fe8
       colorTo: 6f7fe8
-      region: exotic-mod-diamond-wide
+      region: emupcx-diamond-wide
     }
   }
 }

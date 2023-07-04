@@ -51,7 +51,7 @@ weapons: [
       collides: false
       hittable: false
       absorbable: false
-      status: exotic-mod-emp
+      status: emupcx-emp
       statusDuration: 150
       hitEffect: none
       despawnEffect: none
@@ -65,7 +65,7 @@ weapons: [
         spin: 12
         sizeFrom: 240
         sizeTo: 0
-        region: exotic-mod-sawblade
+        region: emupcx-sawblade
         colorFrom: 5a58c4
         colorTo: 90a2fc
       }
@@ -127,7 +127,7 @@ weapons: [
     }
     cooldownTime: 800
     shootSound: beam
-    shootStatus: exotic-mod-overburn
+    shootStatus: emupcx-overburn
     shootStatusDuration: 800
     shootY: 70
     shake: 20

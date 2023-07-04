@@ -163,7 +163,7 @@ weapons: [
           homingDelay: 20
           width: 20
           height: 20
-          sprite: exotic-mod-sword
+          sprite: emupcx-sword
           shrinkY: 0
           frontColor: ffffff
           backColor: 84f591
@@ -229,7 +229,7 @@ abilities: [
       colorTo: 84f59175
       region: particle
     }
-    effect: exotic-mod-regeneration
+    effect: emupcx-regeneration
     range: 85
     reload: 1
     duration: 5

@@ -24,7 +24,7 @@ maxAmmo: 20
 
 ammoTypes: {
   phase-fabric: {
-    sprite: exotic-mod-qpg-wave
+    sprite: emupcx-qpg-wave
     collidesTiles: false
     speed: 8
     height: 48

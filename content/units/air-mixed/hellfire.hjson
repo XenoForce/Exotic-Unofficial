@@ -34,7 +34,7 @@ weapons: [
       spread: 0
       firstShotDelay: 165
     }
-    shootStatus: exotic-mod-stopped
+    shootStatus: emupcx-stopped
     shootStatusDuration: 170
     shootSound: laserblast
     shake: 15
@@ -155,7 +155,7 @@ weapons: [
             lifetime: 35
             colorFrom: 8ca4f5
             colorTo: 8ca4f5
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
           }
           {
             type: WaveEffect
@@ -176,7 +176,7 @@ weapons: [
         lifetime: 35
         colorFrom: 8ca4f5
         colorTo: 8ca4f5
-        region: exotic-mod-diamond-wide
+        region: emupcx-diamond-wide
       }
       // updateEffectSeg: 125
     }

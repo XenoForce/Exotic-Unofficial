@@ -136,7 +136,7 @@ abilities: [
     duration: 300
     reload: 300
     range: 160
-    effect: exotic-mod-sap-heal
+    effect: emupcx-sap-heal
   }
 ]
 

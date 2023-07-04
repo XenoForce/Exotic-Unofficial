@@ -29,7 +29,7 @@ ammoTypes: {
       sizeTo: 0
       colorFrom: "6e7080"
       colorTo: "6e7080"
-      region: exotic-mod-diamond-wide
+      region: emupcx-diamond-wide
     }
     // updateEffectSeg: 50
     pierceEffect: none
@@ -63,7 +63,7 @@ ammoTypes: {
       sizeTo: 0
       colorFrom: 7382f0
       colorTo: 7382f0
-      region: exotic-mod-diamond-wide
+      region: emupcx-diamond-wide
     }
     // updateEffectSeg: 50
     pierceEffect: none

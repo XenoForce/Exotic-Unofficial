@@ -2,7 +2,7 @@ type: ShallowLiquid
 variants: 3
 liquidDrop: mag-slag
 liquidMultiplier: 0.1
-status: exotic-mod-vapourizing
+status: emupcx-vapourizing
 statusDuration: 120
 cacheLayer: slag
 emitLight: true

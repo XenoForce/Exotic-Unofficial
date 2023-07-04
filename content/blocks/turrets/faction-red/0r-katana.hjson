@@ -31,7 +31,7 @@ ammoTypes: {
     collidesTiles: false
     hittable: false
     absorbable: false
-    sprite: exotic-mod-sword
+    sprite: emupcx-sword
     width: 16
     height: 16
     shrinkY: 0
@@ -55,7 +55,7 @@ ammoTypes: {
         lifetime: 35
         sizeFrom: 8
         sizeTo: 0
-        region: exotic-mod-katana-effect-anden
+        region: emupcx-katana-effect-anden
       }
     }
   }

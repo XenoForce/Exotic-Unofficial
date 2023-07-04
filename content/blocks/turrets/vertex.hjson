@@ -16,7 +16,7 @@ shootType: {
   width: 0.01
   serrations: 0
   toColor: ffffff
-  status: exotic-mod-bleeding
+  status: emupcx-bleeding
 }
 
 category: turret

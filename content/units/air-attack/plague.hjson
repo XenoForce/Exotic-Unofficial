@@ -48,7 +48,7 @@ abilities: [
       sizeTo: 62.5
       length: 0.01
       lifetime: 15
-      region: exotic-mod-plague-effect
+      region: emupcx-plague-effect
       colorFrom: fffffff50
       colorTo: ffffff00
     }

@@ -1012,7 +1012,7 @@ weapons: [
             lifetime: 25
             sizeFrom: 100
             sizeTo: 0
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
             colorFrom: e65555
             colorTo: e65555
           }
@@ -1023,7 +1023,7 @@ weapons: [
             lifetime: 25
             sizeFrom: 85
             sizeTo: 0
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
             colorFrom: ffa666
             colorTo: ffa666
           }
@@ -1034,7 +1034,7 @@ weapons: [
             lifetime: 25
             sizeFrom: 60
             sizeTo: 0
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
             colorFrom: f0e773
             colorTo: f0e773
           }
@@ -1045,7 +1045,7 @@ weapons: [
             lifetime: 25
             sizeFrom: 45
             sizeTo: 0
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
             colorFrom: 83f793
             colorTo: 83f793
           }
@@ -1056,7 +1056,7 @@ weapons: [
             lifetime: 25
             sizeFrom: 30
             sizeTo: 0
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
             colorFrom: 7382f0
             colorTo: 7382f0
           }
@@ -1067,7 +1067,7 @@ weapons: [
             lifetime: 25
             sizeFrom: 15
             sizeTo: 0
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
             colorFrom: a488eb
             colorTo: a488eb
           }
@@ -1084,7 +1084,7 @@ weapons: [
             lifetime: 30
             sizeFrom: 28
             sizeTo: 0
-            region: exotic-mod-diamond-wide
+            region: emupcx-diamond-wide
             colorFrom: e65555
             colorTo: e65555
           }
@@ -1095,7 +1095,7 @@ weapons: [
             lifetime: 30
             sizeFrom: 24
             sizeTo: 0
-            region: exotic-mod-diamond-wide
+            region: emupcx-diamond-wide
             colorFrom: ffa666
             colorTo: ffa666
           }
@@ -1106,7 +1106,7 @@ weapons: [
             lifetime: 30
             sizeFrom: 20
             sizeTo: 0
-            region: exotic-mod-diamond-wide
+            region: emupcx-diamond-wide
             colorFrom: f0e773
             colorTo: f0e773
           }
@@ -1117,7 +1117,7 @@ weapons: [
             lifetime: 30
             sizeFrom: 16
             sizeTo: 0
-            region: exotic-mod-diamond-wide
+            region: emupcx-diamond-wide
             colorFrom: 83f793
             colorTo: 83f793
           }
@@ -1128,7 +1128,7 @@ weapons: [
             lifetime: 30
             sizeFrom: 12
             sizeTo: 0
-            region: exotic-mod-diamond-wide
+            region: emupcx-diamond-wide
             colorFrom: 7382f0
             colorTo: 7382f0
           }
@@ -1139,7 +1139,7 @@ weapons: [
             lifetime: 30
             sizeFrom: 8
             sizeTo: 0
-            region: exotic-mod-diamond-wide
+            region: emupcx-diamond-wide
             colorFrom: a488eb
             colorTo: a488eb
           }
@@ -1380,7 +1380,7 @@ abilities: [
     sectorRad: 0.4
     rotateSpeed: 5
     color: e65555
-    status: exotic-mod-vulnerability
+    status: emupcx-vulnerability
     statusDuration: 80
   } 
   {

@@ -48,7 +48,7 @@ weapons: [
         length: 0
         colorFrom: ffd37f
         colorTo: ffd37f
-        region: exotic-mod-diamond-wide
+        region: emupcx-diamond-wide
       }
       hitEffect: railHit
       // updateEffectSeg: 25

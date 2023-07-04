@@ -5,7 +5,7 @@ liquidMultiplier: 0.18
 cacheLayer: slag
 speedMultiplier: 0.15
 liquidDrop: mag-slag
-status: exotic-mod-vapourizing
+status: emupcx-vapourizing
 statusDuration: 240
 emitLight: true
 lightRadius: 65

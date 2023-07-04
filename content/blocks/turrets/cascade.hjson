@@ -16,7 +16,7 @@ ammoTypes: {
     splashDamageRadius: 56
     homingPower: 0.2
     homingRange: 120
-    sprite: exotic-mod-warhead
+    sprite: emupcx-warhead
     width: 10
     height: 20
     frontColor: 6a6c7a
@@ -34,7 +34,7 @@ ammoTypes: {
     splashDamageRadius: 40
     homingPower: 0.1
     homingRange: 60
-    sprite: exotic-mod-warhead
+    sprite: emupcx-warhead
     width: 10
     height: 20
     frontColor: cedb84

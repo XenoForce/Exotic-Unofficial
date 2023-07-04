@@ -31,7 +31,7 @@ ammoTypes: {
   cookienite: {
     type: MissileBulletType
     trailColor: B28768
-    sprite: exotic-mod-cookietitemissile
+    sprite: emupcx-cookietitemissile
     frontColor: B28768
     backColor: C9A58F
     width: 12
@@ -57,7 +57,7 @@ ammoTypes: {
   cookienite-baked: {
     type: MissileBulletType
     trailColor: B28768
-    sprite: exotic-mod-cookietitemissile
+    sprite: emupcx-cookietitemissile
     frontColor: 8F665B
     backColor: B28768
     width: 12
@@ -82,7 +82,7 @@ ammoTypes: {
   }
   blast-compound: {
     type: MissileBulletType
-    sprite: exotic-mod-cookietitemissile
+    sprite: emupcx-cookietitemissile
     trailColor: ffd2ae
     frontColor: ffd2ae
     backColor: e58956
@@ -108,7 +108,7 @@ ammoTypes: {
   }
   pyratite: {
     type: MissileBulletType
-    sprite: exotic-mod-cookietitemissile
+    sprite: emupcx-cookietitemissile
     trailColor: f8ad42
     frontColor: f8ad42
     backColor: f68021
@@ -136,7 +136,7 @@ ammoTypes: {
   }
   plastanium: {
     type: MissileBulletType
-    sprite: exotic-mod-cookietitemissile
+    sprite: emupcx-cookietitemissile
     trailColor: fffac6
     frontColor: fffac6
     backColor: d8d97f
@@ -167,7 +167,7 @@ ammoTypes: {
     fragBullet: {
       type: MissileBulletType
       pierce: true
-      sprite: exotic-mod-cookietitemissile
+      sprite: emupcx-cookietitemissile
       trailColor: fffac6
       frontColor: fffac6
       backColor: d8d97f

@@ -67,7 +67,7 @@ weapons: [
             lifetime: 35
             colorFrom: 8ca4f5
             colorTo: 8ca4f5
-            region: exotic-mod-diamond-thin
+            region: emupcx-diamond-thin
           }
           {
             type: WaveEffect
@@ -88,7 +88,7 @@ weapons: [
         lifetime: 35
         colorFrom: 8ca4f5
         colorTo: 8ca4f5
-        region: exotic-mod-diamond-wide
+        region: emupcx-diamond-wide
       }
       // updateEffectSeg: 75
     }

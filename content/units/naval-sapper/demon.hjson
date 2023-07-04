@@ -355,7 +355,7 @@ abilities: [
       sizeTo: 62.5
       length: 0.01
       lifetime: 25
-      region: exotic-mod-demon-glow
+      region: emupcx-demon-glow
       colorFrom: bf92f9
       colorTo: bf92f900
       lightOpacity: 0
@@ -374,7 +374,7 @@ abilities: [
     rotateSpeed: 3.5
     blinkScl: 100
     shootSound: none
-    status: exotic-mod-charged
+    status: emupcx-charged
   }
 ]
 deathExplosionEffect: {

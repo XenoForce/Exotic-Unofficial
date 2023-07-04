@@ -28,7 +28,7 @@ generateEffect: {
   effects: [
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base
+      region: emupcx-cascadus-base
       lightOpacity: 0
       particles: 1
       lifetime: 240
@@ -38,7 +38,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-3
+      region: emupcx-cascadus-base-frame-3
       lightOpacity: 0
       particles: 1
       lifetime: 240
@@ -50,7 +50,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-3
+      region: emupcx-cascadus-base-frame-3
       lightOpacity: 0
       particles: 1
       lifetime: 48
@@ -62,7 +62,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-2
+      region: emupcx-cascadus-base-frame-2
       lightOpacity: 0
       particles: 1
       lifetime: 96
@@ -74,7 +74,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-1
+      region: emupcx-cascadus-base-frame-1
       lightOpacity: 0
       particles: 1
       lifetime: 144
@@ -86,7 +86,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-0
+      region: emupcx-cascadus-base-frame-0
       lightOpacity: 0
       particles: 1
       lifetime: 192
@@ -98,7 +98,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-rotator-1
+      region: emupcx-cascadus-rotator-1
       lightOpacity: 0
       particles: 1
       lifetime: 240
@@ -109,7 +109,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-0
+      region: emupcx-cascadus-spin-frame-0
       lightOpacity: 0
       particles: 1
       lifetime: 240
@@ -122,7 +122,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-0
+      region: emupcx-cascadus-spin-frame-0
       lightOpacity: 0
       particles: 1
       lifetime: 48
@@ -135,7 +135,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-1
+      region: emupcx-cascadus-spin-frame-1
       lightOpacity: 0
       particles: 1
       lifetime: 96
@@ -148,7 +148,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-2
+      region: emupcx-cascadus-spin-frame-2
       lightOpacity: 0
       particles: 1
       lifetime: 144
@@ -161,7 +161,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-3
+      region: emupcx-cascadus-spin-frame-3
       lightOpacity: 0
       particles: 1
       lifetime: 192
@@ -174,7 +174,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-rotator-2
+      region: emupcx-cascadus-rotator-2
       lightOpacity: 0
       particles: 1
       lifetime: 240
@@ -185,7 +185,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-rotator-3
+      region: emupcx-cascadus-rotator-3
       lightOpacity: 0
       particles: 1
       lifetime: 240
@@ -196,7 +196,7 @@ generateEffect: {
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-top
+      region: emupcx-cascadus-top
       lightOpacity: 0
       particles: 1
       lifetime: 240
@@ -222,7 +222,7 @@ destroyEffect: {
       length: 700
       lifetime: 180
       layer: 95
-      region: exotic-mod-cascadus-rotator-1
+      region: emupcx-cascadus-rotator-1
       spin: 6
       sizeFrom: 40
       sizeTo: 60
@@ -234,7 +234,7 @@ destroyEffect: {
       length: 700
       lifetime: 360
       layer: 95
-      region: exotic-mod-cascadus-rotator-2
+      region: emupcx-cascadus-rotator-2
       spin: -3
       sizeFrom: 40
       sizeTo: 60
@@ -246,7 +246,7 @@ destroyEffect: {
       length: 700
       lifetime: 320
       layer: 95
-      region: exotic-mod-cascadus-rotator-3
+      region: emupcx-cascadus-rotator-3
       spin: -12
       sizeFrom: 40
       sizeTo: 60

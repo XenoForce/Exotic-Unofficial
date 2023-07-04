@@ -196,7 +196,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 140
-      region: exotic-mod-rainstorm-glow
+      region: emupcx-rainstorm-glow
       colorFrom: ffffff00
       interp: pow5Out
       sizeFrom: 40
@@ -209,7 +209,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 140
-      region: exotic-mod-rainstorm-charge-idle
+      region: emupcx-rainstorm-charge-idle
       sizeFrom: 40
       sizeTo: 40
     }
@@ -220,7 +220,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 120
-      region: exotic-mod-rainstorm-charge0
+      region: emupcx-rainstorm-charge0
       sizeFrom: 40
       sizeTo: 40
       colorFrom: 0c0c12
@@ -233,7 +233,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 100
-      region: exotic-mod-rainstorm-charge1
+      region: emupcx-rainstorm-charge1
       sizeFrom: 40
       sizeTo: 40
       colorFrom: 0c0c12
@@ -246,7 +246,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 80
-      region: exotic-mod-rainstorm-charge2
+      region: emupcx-rainstorm-charge2
       sizeFrom: 40
       sizeTo: 40
       colorFrom: 0c0c12
@@ -259,7 +259,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 60
-      region: exotic-mod-rainstorm-charge3
+      region: emupcx-rainstorm-charge3
       sizeFrom: 40
       sizeTo: 40
       colorFrom: 0c0c12
@@ -272,7 +272,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 40
-      region: exotic-mod-rainstorm-charge4
+      region: emupcx-rainstorm-charge4
       sizeFrom: 40
       sizeTo: 40
       colorFrom: 0c0c12
@@ -285,7 +285,7 @@ chargeBeginEffect: {
       baseLength: -32
       randLength: false
       lifetime: 20
-      region: exotic-mod-rainstorm-charge5
+      region: emupcx-rainstorm-charge5
       sizeFrom: 40
       sizeTo: 40
       colorFrom: 0c0c12
@@ -318,7 +318,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 360
-        region: exotic-mod-rainstorm-glow
+        region: emupcx-rainstorm-glow
         sizeFrom: 40
         sizeTo: 40
       }
@@ -329,7 +329,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 340
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: e65555
@@ -342,7 +342,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 320
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: ffa763
@@ -355,7 +355,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 310
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: f2e879
@@ -368,7 +368,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 300
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 84f58f
@@ -381,7 +381,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 290
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 87a3ff
@@ -394,7 +394,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 280
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: be92f7
@@ -407,7 +407,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 300
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -420,7 +420,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 290
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -433,7 +433,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 280
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -446,7 +446,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 270
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -459,7 +459,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 260
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -472,7 +472,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 250
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -485,7 +485,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 270
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: e65555
@@ -498,7 +498,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 260
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: ffa763
@@ -511,7 +511,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 250
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: f2e879
@@ -524,7 +524,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 240
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 84f58f
@@ -537,7 +537,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 230
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 87a3ff
@@ -550,7 +550,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 220
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: be92f7
@@ -563,7 +563,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 240
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -576,7 +576,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 230
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -589,7 +589,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 220
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -602,7 +602,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 210
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -615,7 +615,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 200
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -628,7 +628,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 190
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -641,7 +641,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 210
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: e65555
@@ -654,7 +654,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 200
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: ffa763
@@ -667,7 +667,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 190
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: f2e879
@@ -680,7 +680,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 180
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 84f58f
@@ -693,7 +693,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 170
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 87a3ff
@@ -706,7 +706,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 160
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: be92f7
@@ -719,7 +719,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 180
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -732,7 +732,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 170
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -745,7 +745,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 160
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -758,7 +758,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 150
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -771,7 +771,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 140
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -784,7 +784,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 130
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -797,7 +797,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 150
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: e65555
@@ -810,7 +810,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 140
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: ffa763
@@ -823,7 +823,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 130
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: f2e879
@@ -836,7 +836,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 120
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 84f58f
@@ -849,7 +849,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 110
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 87a3ff
@@ -862,7 +862,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 100
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: be92f7
@@ -875,7 +875,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 120
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -888,7 +888,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 110
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -901,7 +901,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 100
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -914,7 +914,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 90
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -927,7 +927,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 80
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -940,7 +940,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 70
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 0c0c12
@@ -953,7 +953,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 90
-        region: exotic-mod-rainstorm-charge0
+        region: emupcx-rainstorm-charge0
         sizeFrom: 40
         sizeTo: 40
         colorFrom: e65555
@@ -966,7 +966,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 80
-        region: exotic-mod-rainstorm-charge1
+        region: emupcx-rainstorm-charge1
         sizeFrom: 40
         sizeTo: 40
         colorFrom: ffa763
@@ -979,7 +979,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 70
-        region: exotic-mod-rainstorm-charge2
+        region: emupcx-rainstorm-charge2
         sizeFrom: 40
         sizeTo: 40
         colorFrom: f2e879
@@ -992,7 +992,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 50
-        region: exotic-mod-rainstorm-charge3
+        region: emupcx-rainstorm-charge3
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 84f58f
@@ -1005,7 +1005,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 30
-        region: exotic-mod-rainstorm-charge4
+        region: emupcx-rainstorm-charge4
         sizeFrom: 40
         sizeTo: 40
         colorFrom: 87a3ff
@@ -1018,7 +1018,7 @@ shootType: {
         baseLength: -36
         randLength: false
         lifetime: 10
-        region: exotic-mod-rainstorm-charge5
+        region: emupcx-rainstorm-charge5
         sizeFrom: 40
         sizeTo: 40
         colorFrom: be92f7

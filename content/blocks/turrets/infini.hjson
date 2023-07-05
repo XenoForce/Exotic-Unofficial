@@ -450,4 +450,16 @@ ammoTypes: {
 }
 category: turret
 research: supercell
+
+requirements: [
+  copper/450
+  lead/400
+  titanium/250
+  thorium/250
+  silicon/90
+  surge-alloy/70
+  bluewolframite/40
+  draconium/30
+]
+
 // buildVisibility: sandboxOnly

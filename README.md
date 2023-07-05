@@ -1,6 +1,10 @@
 # Exotic-Unofficial
 Exotic Mod - Unofficial Playable Clone
 
+<br>
+
+**Description:**
+
 A working and playable version of Exotic Mod, for v7 of Mindustry.
 
 Designed for the Serpulo campaign. (Not for Erekir, not yet anyway.)

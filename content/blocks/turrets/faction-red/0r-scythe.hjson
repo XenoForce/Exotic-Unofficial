@@ -37,7 +37,7 @@ anden: {
 }
 
 pyratite: {
-	type: ArtilleryIncendiary
+	type: ArtilleryBulletType
 	damage: 30
 	splashDamage: 33
 	splashDamageRadius: 28
@@ -52,7 +52,7 @@ pyratite: {
 }
 
 blast-compound: {
-	type: ArtilleryExplosive
+	type: ArtilleryBulletType
 	damage: 30
 	splashDamage: 33
 	splashDamageRadius: 28

@@ -5,13 +5,13 @@ size: 10
 health: 270000
 
 range: 877
-reload: 300
+reload: 120
 shootSound: laserbig
 loopSound: pulse
 rotateSpeed: 1.5
 recoil: 4
 // powerUse: 4500
-shootDuration: 360
+shootDuration: 300
 
 shoot: {
 	type: ShootPattern
@@ -35,7 +35,7 @@ shootType: {
   
   chargeEffect: {
     type: MultiEffect
-    lifetime: 140
+    lifetime: 120
     clip: 4096
     effects: [
       {

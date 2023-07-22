@@ -7,8 +7,10 @@ description:
   Have fun trying to load enough ammo into this.
   '''
 health: 56000
+
 consumes: {
 }
+
 reloadTime: 1
 heatColor: FEB380
 alternate: true
@@ -20,7 +22,6 @@ inaccuracy: 1.5
 recoil: 3
 size: 3
 range: 600
-restitution: 0.08
 cooldown: 0.08
 shootEffect: shootSmall
 shootSound: missile

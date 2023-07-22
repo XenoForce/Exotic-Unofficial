@@ -1,79 +1,86 @@
 type: ItemTurret
-health: 2000
+
 size: 3
+
+health: 2000
+
 range: 855
 targetAir: true
 targetGround: true
 reload: 110
 recoil: 3
-// restitution: 0.01
 shootSound: artillery
 ammoPerShot: 30
 maxAmmo: 140
+
 ammoTypes: {
-  blast-compound: {
-    damage: 0
-    splashDamage: 500
-    splashDamageRadius: 110
-    lifetime: 3000
-    drag: 0.01
-    speed: 4
-    hittable: false
-    absorbable: false
-    sprite: emupcx-mine
-    frontColor: e58956
-    backColor: ffd2ae
-    width: 16
-    height: 16
-    shrinkY: 0
-    spin: 1.5
-    ammoMultiplier: 1
-  }
-  thorium: {
-    damage: 0
-    splashDamage: 750
-    splashDamageRadius: 60
-    lifetime: 2500
-    drag: 0.01
-    speed: 4
-    hittable: false
-    absorbable: false
-    sprite: emupcx-mine
-    width: 16
-    height: 16
-    shrinkY: 0
-    spin: 1.5
-    ammoMultiplier: 1
-  }
-  surge-alloy: {
-    damage: 0
-    splashDamage: 350
-    splashDamageRadius: 45
-    lifetime: 3500
-    drag: 0.01
-    speed: 4
-    hittable: false
-    absorbable: false
-    sprite: emupcx-mine
-    width: 16
-    height: 16
-    shrinkY: 0
-    spin: 1.5
-    lightning: 10
-    lightningLength: 15
-    lightningDamage: 105
-  }
+blast-compound: {
+	damage: 0
+	splashDamage: 500
+	splashDamageRadius: 110
+	lifetime: 3000
+	drag: 0.01
+	speed: 4
+	hittable: false
+	absorbable: false
+	sprite: emupcx-mine
+	frontColor: e58956
+	backColor: ffd2ae
+	width: 16
+	height: 16
+	shrinkY: 0
+	spin: 1.5
+	ammoMultiplier: 1
 }
+
+thorium: {
+	damage: 0
+	splashDamage: 750
+	splashDamageRadius: 60
+	lifetime: 2500
+	drag: 0.01
+	speed: 4
+	hittable: false
+	absorbable: false
+	sprite: emupcx-mine
+	width: 16
+	height: 16
+	shrinkY: 0
+	spin: 1.5
+	ammoMultiplier: 1
+}
+
+surge-alloy: {
+	damage: 0
+	splashDamage: 350
+	splashDamageRadius: 45
+	lifetime: 3500
+	drag: 0.01
+	speed: 4
+	hittable: false
+	absorbable: false
+	sprite: emupcx-mine
+	width: 16
+	height: 16
+	shrinkY: 0
+	spin: 1.5
+	lightning: 10
+	lightningLength: 15
+	lightningDamage: 105
+}
+}
+
+category: turret
+
 requirements: [
-  copper/700
-  graphite/500
-  silicon/450
-  titanium/425
-  thorium/400
-  plastanium/150
+	copper/700
+	graphite/500
+	silicon/450
+	titanium/425
+	thorium/400
+	plastanium/150
 ]
 
 researchCostMultiplier: 0.1
 
-category: turret
 research: twin

@@ -1,136 +1,17 @@
 type: ItemTurret
+
 size: 8
 
 health: 185000
+
 range: 980
 canOverdrive: false
 rotateSpeed: 0.9
-// shootLength: 0
 shootSound: railgun
 reload: 240
 recoil: 14
-// restitution: 0.04
 // chargeTime: 160
 hasLiquids: false
-
-/*
-chargeEffect: {
-  type: MultiEffect
-  layer: 65
-  effects: [
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 40
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 80
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 80
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-1
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-1
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-1
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-2
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-2
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: emupcx-aurora-3
-    }
-  ]
-}
-*/
 
 consumes: {
   power: 5.2
@@ -139,36 +20,154 @@ consumes: {
 ammoPerShot: 8
 
 ammoTypes: {
-  bluewolframite: {
-    type: RailBulletType
-    damage: 315000
-    length: 980
-    pierceDamageFactor: 0.75
-    // updateEffectSeg: 180
-    shootEffect: {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 30
-      length: 0
-      sizeFrom: 60
-      colorFrom: 6f7fe8
-      colorTo: 6f7fe8
-      region: emupcx-diamond-wide
-    }
-  }
+bluewolframite: {
+	type: RailBulletType
+	damage: 315000
+	length: 980
+	pierceDamageFactor: 0.75
+	
+	chargeEffect: {
+		type: MultiEffect
+		layer: 65
+		effects: [
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 40
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-0
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 80
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-0
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 120
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-0
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 155
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-0
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 80
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-1
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 120
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-1
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 155
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-1
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 120
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-2
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 155
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-2
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 155
+			length: 0
+			sizeFrom: 32
+			sizeTo: 32
+			colorFrom: 9daeff00
+			colorTo: 9daeff
+			region: emupcx-aurora-3
+		}
+		]
+	}
+	
+	shootEffect: {
+		type: ParticleEffect
+		particles: 1
+		lifetime: 30
+		length: 0
+		sizeFrom: 60
+		colorFrom: "6f7fe8"
+		colorTo: "6f7fe8"
+		region: emupcx-diamond-wide
+	}
+}
 }
 
 category: turret
-research: cascade
 
 requirements: [
-  titanium/300
-  graphite/230
-  silicon/200
-  plastanium/120
-  phase-fabric/70
-  bluewolframite/25
-  shadow/15
+	titanium/300
+	graphite/230
+	silicon/200
+	plastanium/120
+	phase-fabric/70
+	bluewolframite/25
+	shadow/15
 ]
 
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.1
+
+research: "cascade"

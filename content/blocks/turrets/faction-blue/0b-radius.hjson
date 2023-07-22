@@ -1,50 +1,64 @@
 type: PowerTurret
-targetAir: false
+
 health: 200
+
+targetAir: false
 reload: 65
 range: 90
 shootSound: laser
 heatColor: ff0000
 // powerUse: 1.2
 shake: 1
-// chargeTime: 30
-/*
-chargeBeginEffect: {
-  type: ParticleEffect
-  lifetime: 30
-  length: 0
-  particles: 1
-  sizeFrom: 0
-  sizeTo: 2
-  colorFrom: 7382f0
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+	firstShotDelay: 30
 }
-chargeEffects: 6
-chargeEffect: {
-  type: ParticleEffect
-  particles: 1
-  lifetime: 24
-  baseLength: 10
-  length: -10
-  line: true
-  strokeFrom: 0
-  strokeTo: 1
-  lenFrom: 0
-  lenTo: 3
-  colorFrom: 7382f0
-}
-*/
+
 shootType: {
-  type: LaserBulletType
-  length: 88
-  width: 16
-  damage: 22
-  colors: [7382f040, 7382f0, ffffff]
+	type: LaserBulletType
+	length: 88
+	width: 16
+	damage: 22
+	colors: [7382f040, 7382f0, ffffff]
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+		{
+			type: ParticleEffect
+			lifetime: 30
+			length: 0
+			particles: 1
+			sizeFrom: 0
+			sizeTo: 2
+			colorFrom: 7382f0
+		},
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 24
+			baseLength: 10
+			length: -10
+			line: true
+			strokeFrom: 0
+			strokeTo: 1
+			lenFrom: 0
+			lenTo: 3
+			colorFrom: 7382f0
+		}
+		]
+	}
 }
+
 category: turret
-research: twin
+
 requirements: [
-  copper/35
-  lead/35
+	copper/35
+	lead/35
 ]
 
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.1
+
+research: twin

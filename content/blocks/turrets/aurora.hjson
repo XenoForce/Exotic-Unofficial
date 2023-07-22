@@ -10,11 +10,17 @@ rotateSpeed: 0.9
 shootSound: railgun
 reload: 240
 recoil: 14
-// chargeTime: 160
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+	firstShotDelay: 90
+}
+
 hasLiquids: false
 
 consumes: {
-  power: 5.2
+	power: 5.2
 }
 
 ammoPerShot: 8

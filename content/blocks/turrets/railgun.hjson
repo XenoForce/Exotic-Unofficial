@@ -45,7 +45,6 @@ surge-alloy: {
 	}
 	
 	hitEffect: railHit
-	// updateEffectSeg: 75
 }
 
 bluewolframite: {

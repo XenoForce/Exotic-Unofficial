@@ -1,4 +1,5 @@
 type: ItemTurret
+
 size: 2
 
 reload: 300
@@ -11,52 +12,52 @@ heatColor: ffea00
 shootSound: buttonClick
 
 shoot: {
-  type: ShootSpread
-  shots: 360
-  spread: 1
+	type: ShootSpread
+	shots: 360
+	spread: 1
 }
 
 inaccuracy: 0
-// shootLength: 0
 targetAir: true
 targetGround: true
 maxAmmo: 20
 
 ammoTypes: {
-  phase-fabric: {
-    sprite: emupcx-qpg-wave
-    collidesTiles: false
-    speed: 8
-    height: 48
-    width: 8
-    drawSize: 0
-    hitSize: 16
-    pierce: true
-    lifetime: 60
-    knockback: 0
-    ammoMultiplier: 4
-    damage: 5
-    hitEffect: ballfire
-    despawnEffect: none
-    shootEffect: none
-    smokeEffect: none
-    incendChance: 0
-  }
+phase-fabric: {
+	sprite: emupcx-qpg-wave
+	collidesTiles: false
+	speed: 8
+	height: 48
+	width: 8
+	drawSize: 0
+	hitSize: 16
+	pierce: true
+	lifetime: 60
+	knockback: 0
+	ammoMultiplier: 4
+	damage: 5
+	hitEffect: ballfire
+	despawnEffect: none
+	shootEffect: none
+	smokeEffect: none
+	incendChance: 0
+}
 }
 
+category: turret
+
 requirements: [
-  copper/400
-  lead/400
-  titanium/300
-  thorium/250
-  graphite/200
-  silicon/100
-  amethyst-gem/50
-  surge-alloy/40
-  phase-fabric/40
+	copper/400
+	lead/400
+	titanium/300
+	thorium/250
+	graphite/200
+	silicon/100
+	amethyst-gem/50
+	surge-alloy/40
+	phase-fabric/40
 ]
 
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.1
 
-category: turret
 research: railgun

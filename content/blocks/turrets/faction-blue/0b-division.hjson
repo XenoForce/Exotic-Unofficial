@@ -1,9 +1,12 @@
 type: TractorBeamTurret
+
+size: 3
+
+health: 1200
+
 targetGround: true
 shootLength: 10
 range: 210
-size: 3
-health: 1200
 force: 24
 scaledForce: 24
 damage: 0.6
@@ -12,17 +15,18 @@ statusDuration: 10
 status: slow
 
 consumes: {
-  power: 6.6
+	power: 6.6
 }
 
 category: turret
-research: 0b-pinpoint
 
 requirements: [
-  lead/250
-  territe-alloy/200
-  titanium/125
-  plastanium/75
+	lead/250
+	territe-alloy/200
+	titanium/125
+	plastanium/75
 ]
 
-researchCostMultiplier: 0.15
+researchCostMultiplier: 0.1
+
+research: "0b-pinpoint"

@@ -1,12 +1,13 @@
 type: LaserTurret
+
 size: 10
 
 health: 270000
+
 range: 877
 reload: 300
 shootSound: laserbig
 loopSound: pulse
-// shootLength: 32
 rotateSpeed: 1.5
 recoil: 4
 // powerUse: 4500
@@ -16,7 +17,7 @@ heatColor: ffffff
 firingMoveFract: 0
 
 /*
-chargeBeginEffect: {
+chargeEffect: {
   type: MultiEffect
   lifetime: 140
   clip: 4096
@@ -293,7 +294,6 @@ chargeBeginEffect: {
     }
   ]
 }
-chargeEffect: none
 */
 
 shootType: {
@@ -306,12 +306,13 @@ shootType: {
   colors: [e6555525, ff9c5935, f2e87945, 84f59155, 8ca4f565, a488eb75]
   // strokes: [1.5, 1.25, 1, 0.75, 0.5, 0.25]
   smokeEffect: none
+  
   shootEffect: {
     type: MultiEffect
     lifetime: 440
     clip: 4096
     effects: [
-      {
+    {
         length: 0
         particles: 1
         cone: 0
@@ -1120,6 +1121,8 @@ consumes: {
 coolantMultiplier: 0.6
 liquidCapacity: 3500
 
+category: turret
+
 requirements: [
   copper/3000
   lead/2500
@@ -1134,7 +1137,6 @@ requirements: [
   shadow/120
 ]
 
-researchCostMultiplier: 0.03
+researchCostMultiplier: 0.01
 
-category: turret
 research: blade

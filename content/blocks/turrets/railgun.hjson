@@ -6,7 +6,7 @@ health: 4500
 
 targetAir: true
 targetGround: true
-// cooldown: 0.1
+cooldownTime: 40
 reload: 90
 
 shoot: {

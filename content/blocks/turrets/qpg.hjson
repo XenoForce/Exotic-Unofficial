@@ -8,7 +8,7 @@ rotateSpeed: 0
 shootCone: 360
 range: 400
 heatColor: ffea00
-// cooldown: 0.015
+cooldownTime: 150
 shootSound: buttonClick
 
 shoot: {

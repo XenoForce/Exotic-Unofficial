@@ -5,7 +5,7 @@ size: 7
 health: 3500
 
 heatColor: e65555
-// cooldown: 0.01
+cooldownTime: 10
 squareSprite: false
 range: 500
 reload: 10

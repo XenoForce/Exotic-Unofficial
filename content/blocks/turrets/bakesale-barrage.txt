@@ -11,7 +11,7 @@ health: 56000
 consumes: {
 }
 
-reloadTime: 1
+reloadTime: 30
 heatColor: FEB380
 alternate: true
 shots: 7
@@ -22,7 +22,7 @@ inaccuracy: 1.5
 recoil: 3
 size: 3
 range: 600
-cooldown: 0.08
+cooldownTime: 20
 shootEffect: shootSmall
 shootSound: missile
 hasLiquids: false

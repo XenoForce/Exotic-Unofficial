@@ -1,9 +1,10 @@
-type: PowerGenerator
+type: ConsumeGenerator
 size: 10
 
 canOverdrive: false
 liquidCapacity: 400
-// itemDuration: 240
+itemCapacity: 10
+itemDuration: 360
 baseExplosiveness: 185
 
 consumes: {

@@ -8,7 +8,7 @@ description:
   (For more information, please see the repo page of this mod.)
   
   '''
-version: "1.0.3"
+version: "1.0.4"
 minGameVersion: "136"
 dependencies: []
 hideBrowser: false
